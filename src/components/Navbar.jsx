@@ -10,7 +10,7 @@ import menu from '../assets/menu.svg'
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-between items-center px-10 py-20 ">
+    <div className="flex flex-row justify-between items-center px-10 py-20">
       <img className='sm:hidden block lg:hidden md:hidden ' src={menu} alt={menu} />
 
       <div className="lg:grid md:grid hidden grid-flow-col grid-4 gap-10">

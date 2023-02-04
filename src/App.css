@@ -1,5 +1,14 @@
-.App {
-  text-align: center;
+.contact {
+  background-image: url("./assets/images/contact.jpeg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -37,9 +46,15 @@
   }
 }
 
+.toggleBg { 
+  cursor: pointer;
+  filter: grayscale(100%); 
+}
 .toggleBg:hover { 
   cursor: pointer;
-  filter: invert(100%); 
+  filter: grayscale(0); 
+
+  scale: 1.2;
 }
 
 .me{

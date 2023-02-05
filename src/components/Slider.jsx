@@ -35,7 +35,7 @@ export default function Slider({ content, my_swiper, handleSwiper }) {
   }, [screenSize])
 
   return (
-    <div className=" flex justify-center items-center p-5 gap-5">
+    <div className="h-[100vh] flex justify-center items-center p-5 gap-5">
       <img
         onClick={() => {
           my_swiper.slidePrev()
@@ -79,6 +79,7 @@ export default function Slider({ content, my_swiper, handleSwiper }) {
                 name={item.name}
                 type={item.type}
                 url={item.url}
+                img={item.img}
                 description={item.description}
               />
             </SwiperSlide>

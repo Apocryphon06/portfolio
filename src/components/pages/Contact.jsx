@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import contact from '../../assets/contact.svg'
+import contact from '../../assets/contact_us.svg'
 import arrow_60 from '../../assets/arrow_60.svg'
 
 function Contact() {

@@ -18,18 +18,10 @@ function App() {
         <Navbar />
         <Portfolio />
         <Separator />
-        <Heading title="My Advantage" />
         <br />
         <Skills />
         <Separator />
-        <Heading title="Education & Experience" />
         <Education />
-        <Separator />
-        <Heading title="My Latest Projects" />
-        <Projects />
-        <Separator />
-
-        <Contact />
         <Footer />
       </div>
     </Fragment>

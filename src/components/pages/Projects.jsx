@@ -10,34 +10,35 @@ function Projects() {
   const projects = [
     {
       name: 'To do',
-      url: '',
+      type: 'Tasks',
+      url: 'https://apocryphon06-todo.netlify.app',
       img: '',
     },
     {
-      name: '',
-      url: '',
+      name: 'Eden',
+      type: 'Website Design',
+      url: 'https://apocryphon06.github.io/ui-flow/',
       img: '',
     },
     {
-      name: '',
-      url: '',
+      name: 'Landing Page',
+      type: 'Website Design',
+      url: 'https://apocryphon06.github.io/totalitycorp-frontend-challenge/',
       img: '',
     },
     {
-      name: '',
-      url: '',
+      name: 'Whatsapp Clone',
+      type: 'Website Design',
+      url: 'https://apocryphon06-whatsapp-clone.netlify.app',
       img: '',
     },
-    {
-      name: '',
-      url: '',
-      img: '',
-    },
-    {
-      name: '',
-      url: '',
-      img: '',
-    },
+    // {
+    //   name: 'Splitwise Clone',
+    //   type: 'Website Design',
+    //   url: 'https://apocryphon06-splitwise-clone.netlify.app/',
+    //   img: '',
+    // },
+    
   ]
   return (
     <div>

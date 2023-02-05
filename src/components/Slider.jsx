@@ -35,50 +35,41 @@ export default function Slider({ content, my_swiper, handleSwiper }) {
   }, [screenSize])
 
   return (
-    <div className=" lg:h-[100vh] flex justify-center items-center p-5 gap-5">
+    <div className=" flex justify-center items-center p-5 gap-5">
       <img
         onClick={() => {
           my_swiper.slidePrev()
         }}
         src={arrow}
         // className='sm:flex lg:hidden md:hidden m-auto cursor-pointer'
-        className=" m-auto cursor-pointer"
+        className="border p-2 m-auto cursor-pointer"
         alt=""
       />
       <Swiper
         onInit={handleSwiper}
         // initialSlide={0}
-        slidesPerView={3}
+        slidesPerView={screenSize.dynamicWidth < 768 ? 1 : 4}
         spaceBetween={20}
         centeredSlides={screenSize.dynamicWidth < 768 ? true : false}
+        // centeredSlides={false}
         cssMode={true}
         mousewheel={true}
         keyboard={true}
-        modules={[ Autoplay,Navigation, Pagination, Mousewheel, Keyboard]}
+        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
-          pauseOnMouseEnter: true
+          pauseOnMouseEnter: true,
         }}
+        // breakpoints={{
+        //   375: {
+        //     slidesPerView: 1,
+        //   },
 
-        
-        breakpoints={{
-          640: {
-            width: 768,
-            slidesPerView: 1.5,
-          },
-          768: {
-            width: 1024,
-            slidesPerView: 3,
-          },
-          936: {
-            width: 1024,
-            slidesPerView: 3,
-          },
-        }}
-        pagination={{
-          clickable: true
-        }}
+        // }}
+        // pagination={{
+        //   clickable: true
+        // }}
         className="mySwiper"
       >
         {content.map((item, index) => {
@@ -86,6 +77,7 @@ export default function Slider({ content, my_swiper, handleSwiper }) {
             <SwiperSlide key={'slider' + index}>
               <Card
                 name={item.name}
+                type={item.type}
                 url={item.url}
                 description={item.description}
               />
@@ -100,7 +92,7 @@ export default function Slider({ content, my_swiper, handleSwiper }) {
         }}
         src={arrow}
         // className='sm:flex lg:hidden md:hidden m-auto cursor-pointer rotate-180'
-        className=" m-auto cursor-pointer rotate-180"
+        className="border p-2 m-auto cursor-pointer rotate-180"
         alt=""
       />
     </div>

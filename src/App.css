@@ -61,3 +61,14 @@
   filter:grayscale(100%)
 }
 
+.cardImg{
+  filter: grayscale(100%);
+}
+
+.cardImg:hover{
+  cursor: pointer;
+  scale: 1.02;
+  filter: grayscale(0);
+}
+
+

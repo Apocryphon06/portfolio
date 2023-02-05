@@ -9,6 +9,7 @@ import Separator from './components/Separator'
 import Education from './components/pages/Education'
 import Footer from './components/Footer'
 import Contact from './components/pages/Contact'
+import Projects from './components/pages/Projects'
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Heading title="Education & Experience" />
         <Education />
         <Separator />
+        <Heading title="My Latest Projects" />
+        <Projects />
+        <Separator />
+
         <Contact />
         <Footer />
       </div>

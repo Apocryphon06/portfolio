@@ -9,42 +9,35 @@ function Projects() {
 
   const projects = [
     {
-      name: '',
+      name: 'To do',
       url: '',
-      link:'',
       img: '',
     },
     {
       name: '',
       url: '',
-      link:'',
       img: '',
     },
     {
       name: '',
       url: '',
-      link:'',
       img: '',
     },
     {
       name: '',
       url: '',
-      link:'',
       img: '',
     },
     {
       name: '',
       url: '',
-      link:'',
       img: '',
     },
     {
       name: '',
       url: '',
-      link:'',
       img: '',
     },
-    
   ]
   return (
     <div>

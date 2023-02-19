@@ -4,7 +4,7 @@ import Intro from '../Intro'
 
 function Portfolio() {
   return (
-    <div>
+    <div >
       <Intro />
       <div className="p-10 grid lg:grid-flow-col grid-flow-row gap-5 grid-3 items-center">
         <div className="flex flex-col">
@@ -45,7 +45,8 @@ function Portfolio() {
           </div>
         </div>
 
-        <div>
+          
+        <div id="portfolio" >
           <img
             className="me border p-5 rounded-[250px]"
             width={400}

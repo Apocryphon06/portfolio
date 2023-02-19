@@ -4,7 +4,7 @@ import Heading from '../Heading'
 function Education() {
   return (
     <div>
-      <Heading title="Education & Experience" />
+      <Heading title="Education & Experience" id="blog" />
 
       <div className=" grid lg:grid-flow-col grid-flow-row grid-3 p-10 h-[100vh]">
         <div className="flex flex-col ">

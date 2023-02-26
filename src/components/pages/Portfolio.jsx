@@ -48,7 +48,7 @@ function Portfolio() {
           
         <div id="portfolio" >
           <img
-            className="me border p-5 rounded-[250px]"
+            className=" border p-5 rounded-[250px]"
             width={400}
             src={me}
             alt={me}
@@ -74,7 +74,7 @@ function Portfolio() {
               </p>
               <br />
 
-              <p className="text-[#0b0b0b] text-[44px]">12</p>
+              <p className="text-[#0b0b0b] text-[44px]">06</p>
             </div>
           </div>
         </div>

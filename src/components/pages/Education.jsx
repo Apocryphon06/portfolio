@@ -6,7 +6,7 @@ function Education() {
     <div>
       <Heading title="Education & Experience" id="blog" />
 
-      <div className=" grid lg:grid-flow-col grid-flow-row grid-3 p-10 h-[100vh]">
+      <div className=" grid lg:grid-flow-col grid-flow-row grid-3 p-10 lg:h-[620px]">
         <div className="flex flex-col ">
           <p className="text-[#656565] py-10">2015 - 2021</p>
 

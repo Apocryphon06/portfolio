@@ -54,7 +54,7 @@ function Skills() {
             className="flex flex-col justify-center items-center border p-5 lg:h-[300px] lg:py-5 px-10 rounded-full bg-[#dfdfdf]"
           >
             <img
-              className="toggleBg"
+              className=""
               width={100}
               src={item.src}
               alt={item.name}

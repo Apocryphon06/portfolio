@@ -102,7 +102,7 @@ function App() {
           <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 items-center mt-[100px]">
             {projects.map((item) => (
               <div className="flex flex-col border p-5 rounded-sm">
-                <a href={item.link}>
+                <a href={item.link} target="__blank">
                   <img
                     src={item.img}
                     alt={item.img}

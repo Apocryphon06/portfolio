@@ -74,7 +74,7 @@ function Portfolio() {
               </p>
               <br />
 
-              <p className="text-[#0b0b0b] text-[44px]">06</p>
+              <p className="text-[#0b0b0b] text-[44px]">10</p>
             </div>
           </div>
         </div>

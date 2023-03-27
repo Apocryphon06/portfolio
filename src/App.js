@@ -8,13 +8,15 @@ import Education from './components/pages/Education'
 import Footer from './components/Footer'
 import Heading from './components/Heading'
 
-import todo from './assets/images/todo.png'
+// import todo from './assets/images/todo.png'
 import hexa from './assets/images/hexa.png'
-import orange from './assets/images/orange.png'
+import linkedin from './assets/images/linkedin.png'
+import zaincare from './assets/images/zaincare.png'
+
 import amazon from './assets/images/amazon.png'
-import netflix from './assets/images/netflix.png'
+// import netflix from './assets/images/netflix.png'
 import whatsapp from './assets/images/whatsapp.png'
-import checkout from './assets/images/checkout.png'
+// import checkout from './assets/images/checkout.png'
 import starbucks from './assets/images/starbucks.png'
 
 const projects = [
@@ -27,10 +29,10 @@ const projects = [
   },
   {
     id: 2,
-    title: 'orange',
-    description: 'landing page',
-    link: 'https://apocryphon06-oranges.netlify.app',
-    img: orange,
+    title: 'linkedin clone',
+    description: 'website redesign',
+    link: 'https://endearing-parfait-31c67f.netlify.app',
+    img: linkedin,
   },
   {
     id: 3,
@@ -48,10 +50,10 @@ const projects = [
   // },
   {
     id: 5,
-    title: 'netflix clone',
-    description: 'website design',
-    link: 'https://hrithik-netflix-clone.netlify.app',
-    img: netflix,
+    title: 'zaincare',
+    description: 'web application',
+    link: 'https://zaincare.scube.me',
+    img: zaincare,
   },
   // {
   //   id: 6,

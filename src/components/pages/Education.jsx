@@ -24,7 +24,7 @@ function Education() {
         <div className="flex flex-col ">
           <p className="text-[#656565] py-10">2019 - 2022</p>
 
-          <div className="text-[22px] font-serif">Software Developer - 1</div>
+          <div className="text-[22px] font-serif">Software Engineer - 1</div>
           <p className="text-[#3a3b3c]">Capgemini Technologies Pvt. Ltd.</p>
           <br />
           <div className="text-[22px] font-serif">Web Developer Internship</div>

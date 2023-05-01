@@ -3,10 +3,10 @@ import Heading from '../Heading'
 
 function Education() {
   return (
-    <div>
+    <div id="education">
       <Heading title="Education & Experience" id="blog" />
 
-      <div className=" grid lg:grid-flow-col grid-flow-row grid-3 p-10 lg:h-[620px]">
+      <div  className=" grid lg:grid-flow-col grid-flow-row grid-3 p-10 lg:h-[620px]">
         <div className="flex flex-col ">
           <p className="text-[#656565] py-10">2015 - 2021</p>
 

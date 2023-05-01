@@ -10,12 +10,12 @@ import menu from '../assets/menu.svg'
 
 function Navbar() {
   const handleClickScroll = (section) => {
-    const element = document.getElementById('portfolio');
+    const element = document.getElementById(section)
     if (element) {
       // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'smooth' })
     }
-  };
+  }
 
   return (
     <div className="flex flex-row justify-between items-center px-10 py-20">
@@ -27,9 +27,24 @@ function Navbar() {
 
       <div className="lg:grid md:grid hidden grid-flow-col grid-4 gap-10">
         <p className="cursor-pointer text-md hover:underline">HOME</p>
-        <p onClick={handleClickScroll} className="cursor-pointer text-md hover:underline">PORTFOLIO</p>
-        <p className="cursor-pointer text-md hover:underline">BLOG</p>
-        <p className="cursor-pointer text-md hover:underline">PAGES</p>
+        <p
+          onClick={() => handleClickScroll('portfolio')}
+          className="cursor-pointer text-md hover:underline"
+        >
+          PORTFOLIO
+        </p>
+        <p
+          onClick={() => handleClickScroll('education')}
+          className="cursor-pointer text-md hover:underline"
+        >
+          EDUCATION
+        </p>
+        <p
+          onClick={() => handleClickScroll('projects')}
+          className="cursor-pointer text-md hover:underline"
+        >
+          PROJECTS
+        </p>
       </div>
 
       <div className="lg:grid md:grid hidden grid-flow-col grid-4 gap-10">
@@ -53,14 +68,14 @@ function Navbar() {
           src={instagram}
           alt={instagram}
         />
-        
+
         <a href="https://github.com/Apocryphon06">
-        <img
-          // width={50}
-          className="cursor-pointer "
-          src={github}
-          alt={github}
-        />
+          <img
+            // width={50}
+            className="cursor-pointer "
+            src={github}
+            alt={github}
+          />
         </a>
 
         <a href="https://www.linkedin.com/in/hrithik-chandrashekar-397b43177/">

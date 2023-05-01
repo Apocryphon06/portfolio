@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 function Portfolio() {
   return (
-    <div>
+    <div id="portfolio">
       <Intro />
       <div className="p-10 grid lg:grid-flow-col grid-flow-row gap-5 grid-3 items-center">
         <div className="flex flex-col">
@@ -62,7 +62,7 @@ function Portfolio() {
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: -100, opacity: 1 }}
           transition={{ stiffness: 10, duration: 2 }}
-          id="portfolio"
+          
         >
           <img
             className=" border p-5 rounded-[250px]"

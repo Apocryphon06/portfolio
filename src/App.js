@@ -61,13 +61,6 @@ const projects = [
     link: 'https://apocryphon06-whatsapp-clone.netlify.app',
     img: whatsapp,
   },
-  // {
-  //   id: 9,
-  //   title: 'amazon clone',
-  //   description: 'website design',
-  //   link: 'https://apocryphon06-amazon-clone.netlify.app',
-  //   img: amazon,
-  // },
   
 ]
 
